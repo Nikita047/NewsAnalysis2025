@@ -1,7 +1,3 @@
-.env
-*.ipynb
-*.csv
-*.xlsx
-*.pkl
-__pycache__/
-*.ipynb_checkpoints/
+*.parquet
+!NYT_with_sentiment_FINAL_v3.parquet
+exports/
