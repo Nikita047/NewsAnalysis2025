@@ -1,4 +1,18 @@
+# Ignore local environment files
+.env
+
+# Ignore notebooks and exports
+*.ipynb
+exports/
+
+# Ignore all parquet files EXCEPT the one needed by the app
 *.parquet
 !NYT_with_sentiment_FINAL_v3.parquet
-exports/
-.env
+
+# Ignore data files we don't want to push
+*.csv
+*.xlsx
+
+# Python + local cache
+__pycache__/
+*.pkl
